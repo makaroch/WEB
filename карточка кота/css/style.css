@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0; 
+    background: url( "../img/pattern.png")
+}
+h1{
+    margin: 0;
+    padding: 0;
+    
+}
+.card {
+    width: 400px;   
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px rgba(252, 217, 29, 0.81);
+    border-radius: 10px;
+    padding: 5px; 
+}
+img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 5px auto;
+   border-radius: 50%
+}
+.card-titl{
+    font-size: 20px;
+    text-align: center;
+}
+.card-text{
+    font-size: 14px;
+}
+.card-subtitl{  
+    text-decoration: underline;
+    font-size: 18px;
+    color: #1c7474;
+    font-size: 14px;
+}
+.card-list{
+    padding-left: 0;
+    list-style-position: inside;
+}
+.a1 {
+    display: block;
+    text-decoration:none;
+}
+.a2 {
+    display: block;
+    text-decoration:none;
+}
+.aaa {
+    display: none;
+}

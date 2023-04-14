@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0; 
+}
+
+/*container*/
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/*header*/
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+    padding-top: 30px;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heder_logo {
+    font-size: 30px;
+    color: #fff;
+
+}
+.nav_link {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 10px;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/* intro*/
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+     background: url(../images/1.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.intro_suptitle {
+    font-size: 60px;
+    font-weight: 500;
+}
+.intro_title {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.shedov {
+    background-color: rgba(63, 133, 185, 0.74);
+    border-radius: 75px;
+
+
+}
+.shedov--heder {
+    width: 280px;
+    padding-left: 20px;
+}
+.shedov--nav {
+     background-color: rgba(31, 201, 77, 0.74);
+}
+
+
+/*production*/
+
+.production {
+    margin: 0;
+    background-color: rgba(33, 98, 91, 0.58);
+}
+.spaget_img {
+    width: 300px;
+    height: 200px;
+    float:right;
+    margin: 5px;
+    border: 3px solid #333;
+}
+.production_title {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.p {
+    font-size: 18px;
+
+}
+.p--end {
+    margin-bottom: 0;
+    padding-bottom: 25px;
+}
+
+/*rotin*/
+
+.rotin_img {
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin: 5px;
+    border: 3px solid #333;
+}
+
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+    background-color: #000;
+    color: #fff;
+
+}
+.footer_aftor {
+
+    text-align: center;
+
+}
+.a {
+    text-decoration: none;
+}
+.footer_p {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
