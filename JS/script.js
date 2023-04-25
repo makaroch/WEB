@@ -46,16 +46,49 @@
 
 // const st1 = new Student;
 // st1.info();
-let x = 0;
+let x = "";
+let arr = [];
+function one(){
+    x += "1"
+}
+function two(){
+    x += "2"
+}
+function thre(){
+    x += "3"
+}
+function fo(){
+    x += "4"
+}
+function fi(){
+    x += "5"
+}
+function six(){
+    x += "6"
+}
+function seven(){
+    x += "7"
+}
+function au(){
+    x += "8"
+}
+function nine(){
+    x += "9"
+}
+function add() {
+    arr.push(Number(x));
+    x = "";
+}
 
-function plus(){
-    x+=1;
-    show();
-}
-function minus(){
-    x-=1;
-    show();
-}
 function show() {
-    console.log(x);
+    console.log(arr);
+}
+function max() {
+    console.log(Math.max.apply(null, arr));
+}
+function min() {
+    console.log(Math.min.apply(null, arr));
+}
+function sort() {
+    console.log(arr.sort((a, b) => a - b));
 }
