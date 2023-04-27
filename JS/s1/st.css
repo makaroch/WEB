@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-cont{
+    display: flex;
+    justify-content:end;
+    margin: 20px;
+}
+.flex-cont1{
+    margin: 20px;
+    display: flex;
+    justify-content:center;
+}
+.content{
+    padding: 10px;
+}
+.button{
+    cursor: pointer;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    min-width: auto;
+    min-height: auto;
+    border-radius: 10px;
+}
+.button:active{
+    background-color: black;
+}
+.body_nait{
+    background-color: gray;
+    color: white;
+}
+.body_day{
+    background-color: white;
+    color: black;
+}
+.box{
+    text-align: center;
+    font-size: 40px;
+}
+.text_non{
+    display: none;
+}
